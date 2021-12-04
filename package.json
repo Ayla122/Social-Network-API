@@ -1,21 +1,26 @@
 {
   "name": "social-network-api",
   "version": "1.0.0",
-  "description": "an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ayla122/Social-Network-API.git"
+    "url": "git+https://github.com/jpd61/social-network-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Joseph DeWoody",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ayla122/Social-Network-API/issues"
+    "url": "https://github.com/jpd61/social-network-api/issues"
   },
-  "homepage": "https://github.com/Ayla122/Social-Network-API#readme"
+  "homepage": "https://github.com/jpd61/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4"
+  }
 }
